@@ -1,0 +1,37 @@
+section{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #0c68ee;
+    border-radius: 50px;
+}
+.card1{
+    width: 400px;
+    
+}
+.card2{
+
+    
+    border-radius: 20px;
+    box-shadow: 50px;
+    width: 250px;
+    padding: 90px;
+    font-family: sans-serif;
+    background-color: #007bff;
+}
+input{
+    padding: 7px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #0c68ee;
+}
+button{
+    padding: 8px;
+    border-radius: 15px;
+    border-width: 0px;
+    color: darkblue;
+    background-color: yellow;
+}
