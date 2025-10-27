@@ -1,0 +1,60 @@
+header{
+    background-color: wheat;
+    padding-bottom: 80px;
+    
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.logo{
+    padding-left: 30px;
+}
+input{
+    padding: 15px;
+    border-radius: 20px;
+}
+.globe{
+    display: flex;
+    padding-left: 30px;
+    gap: 20px;
+}
+#host{
+    font-size: 18px;
+    font-weight: bold;
+}
+.search-container{
+   padding-left: 400px;
+}
+.main-head{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 230px;
+}
+.price{
+    display: flex;
+}
+.box-image{
+    border-radius: 20px;
+}
+.container-box{
+    display: flex;
+    padding-left: 50px;
+}
+.favoraite-button{
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.guest-btn{
+    border-radius: 8px;
+    border: 0;
+padding: 5px;}
+
