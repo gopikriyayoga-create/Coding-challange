@@ -1,0 +1,67 @@
+button{
+    background-color: #d8dbe2;
+    width: 53px;
+    height: 53px;
+    border-radius: 100%;
+    border: 3px solid #4c5768;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.cart{
+    position: relative;
+    display: flex;
+}
+h3{
+    position: absolute;
+    left: 35px;
+    bottom: 18px;
+    font-weight: bolder;
+    width: 20px;
+    height: 20px;
+    border: 1px solid salmon;
+    border-radius: 100%;
+    background-color: salmon;
+    object-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+main{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #d8dbe2;
+    box-shadow: 8px 5px 5px black;
+}
+.buy{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    
+    
+}
+#para1{
+    color: white;
+    font-size: 18px;
+}
+#para2{
+    color: salmon;
+    font-size: 18px;
+}
+section{
+    height: 500px;
+    width: 500px;
+    background-color: #4b4b4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
