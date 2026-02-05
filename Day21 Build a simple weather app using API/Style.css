@@ -1,0 +1,46 @@
+.container{
+    width:380px;
+    height:500px;
+    text-align:center;
+    color:white;
+    background-color:#33267a;
+    border-radius:30px;
+    padding-top:10px;
+
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:700px;
+    width:1500px;
+    background-color: #4c427e;
+}
+
+#input-city{
+    padding: 10px;
+     border-radius:15px;
+     border:0px;
+     background-color: #4c427e;
+}
+
+#button{
+    padding:8px;
+     border-radius:15px;
+     border:0;
+     background-color:gray;
+     color: #4c427e;
+}
+
+h3{
+    color:cyan;
+}
+
+h2{
+    color:purple;
+}
+
+h1{
+    color:green;
+}

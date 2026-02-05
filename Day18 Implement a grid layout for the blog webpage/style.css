@@ -1,0 +1,235 @@
+body{
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-webpage{
+  width: 90%;
+  height: 1400px;
+  background-color: white;
+}
+
+.icon-container{
+  display: flex;
+  gap: 20px;
+}
+
+*{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+h1{
+    border: 0;
+    margin: 0;
+}
+
+.box{
+    width: 250px;
+    height: 550px;
+    border: 4px solid white;
+    
+    
+}
+
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 25px;
+    
+}
+
+.inside-box{
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  overflow: hidden;
+  
+}
+
+.inside-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+section{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.image1{
+  background-image: url(download1.jpg);
+  width: 250px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  
+ 
+}
+.image2{
+  background-image: url(download8.jpg);
+  width: 250px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+}
+.image3{
+  background-image: url(download7.jpg);
+  width: 250px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+}
+.image4{
+  background-image: url(download6.jpg);
+  width: 250px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+}
+.image5{
+  background-image: url(download5.jpg);
+  width: 250px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+}
+.image6{
+  background-image: url(download4.jpg);
+  width: 250px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+}
+.image7{
+  background-image: url(download3.jpg);
+  width: 250px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+}
+.image8{
+  background-image: url(download2.jpg);
+  width: 250px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  
+}
+
+h5{
+  border: 0;
+}
+
+.svg-icon{
+  display: flex;
+  gap: 5px;
+}
+
+svg{
+  color: #ff456b;
+}
+
+.like-comments{
+  width: 115px;
+  height: 20px;
+  border-radius: 80px;
+  background-color: #7366ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 11px;
+  gap: 5px;
+  position: absolute;
+  bottom: 90%;
+  left: 45%;
+  
+}

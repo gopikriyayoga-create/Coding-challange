@@ -1,0 +1,243 @@
+main{
+    width: 80%;
+    height: 900px;
+    background-color: #66727e;
+    padding: 35px 30px 30px 40px;
+    
+
+}
+.grid-container{
+    width: 95%;
+    height: 850px;
+    background-color: #d5dedd;
+    padding-top: 25px;
+    padding-left: 55px;
+    border-radius: 50px;
+}
+article{
+    display: grid;
+    gap: 10px;
+grid-template-areas: 'myArea myArea . .' 'myArea myArea . .';    
+}
+header{
+    width: 90%;
+    height: 55px;
+    background-color: #e5ecee;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+.search{
+    position: relative;
+}
+.head1{
+    display: flex;
+    align-items: center;
+    border: 0;
+    margin: 0;
+}
+.logo{
+    margin: 0;
+    border: 0;
+}
+.search-input{
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 0;
+    box-sizing: border-box;
+}
+.search-icon{
+    position: absolute;
+    transform: translateX(-110%);
+}
+.box-1{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    color: #fd4142;
+}
+.box-2{
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.profile{
+    display: flex;
+    gap: 10px;
+}
+.sec-1{
+    width: 650px;
+    height: 478px;
+    background-color: #f3f5f5;
+    display: grid;
+    grid-template-columns: 180px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    border-radius: 40px;
+
+}
+
+.boom{
+    padding-top: 20px;
+    border: 0;
+    margin: 0;
+   
+}
+.box-3{
+    width: 130px;
+    height: 20px;
+    background-color: #f3f5f5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.box-4{
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transform: translateX(-110%);
+    
+}
+button{
+    padding: 10px 38px 8px 10px;
+    background-color: #e1fd76;
+    border: 0;
+    border-radius: 20px;
+}
+.mor-product{
+    padding-left: 10px;
+    
+}
+.btn1{
+    display: flex;
+    position: relative;
+}
+.box-5{
+    width: 250px;
+    height: 90px;
+    background-color:#f3f5f5 ;
+    border-radius: 30px;
+
+}
+.clrs{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.buds-pic{
+    padding-left: 20px;
+}
+.clrs1{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: red;
+}
+.clrs2{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: blue;
+}
+.clrs3{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: violet;
+}
+.clrs4{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+.clrs5{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: green;
+}
+.colors{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.buds{
+    width: 250px;
+    height: 180px;
+    background-color: #f3f5f5;
+    border-radius: 30px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+
+}
+.vr1{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+}
+.vr{
+    width: 330px;
+    height: 240px;
+    background-color: #f3f5f5;
+    border-radius: 30px;
+}
+.more-product{
+    width: 250px;
+    height: 160px;
+    background-color: #f3f5f5;
+    border-radius: 30px;
+    border: 0;
+    margin: 0;
+    
+}
+.products1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.sm-watch{
+     width: 150px;
+    height: 180px;
+    background-color: #f3f5f5;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    margin: 0;
+}
+.lens{
+     width: 300px;
+    height: 160px;
+    background-color: #f3f5f5;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    margin: 0;
+
+}
+.article-2{
+    display: flex;
+    gap: 30px;
+    
+}

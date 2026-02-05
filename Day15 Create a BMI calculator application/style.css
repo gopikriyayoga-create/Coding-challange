@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6e6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #4a4a98;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#calculateBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+#calculateBtn:hover {
+    background-color: #5d4aaf;
+}
+
+.result-container {
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 2px solid #eee;
+}
+
+#bmiResult {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #4a4a98;
+    display: block;
+    margin-top: 5px;
+}
+
+#status {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* Specific colors for status */
+.underweight { color: #007bff; }
+.healthy { color: #28a745; }
+.overweight { color: #ffc107; }
+.obesity { color: #dc3545; }
+
+.classification-chart {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px dashed #ccc;
+}
+.classification-chart h3 {
+    color: #4a4a98;
+}
+.classification-chart ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9em;
+}
+.classification-chart li {
+    padding: 3px 0;
+}
